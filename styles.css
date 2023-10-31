@@ -1,0 +1,196 @@
+/* Reset CSS */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+p,
+blockquote,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+/* hr, */
+img,
+pre,
+a,
+table,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* end of CSS reset */
+
+body {
+    letter-spacing: 0.5px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #863ae8;
+    height: 100vh;
+    color: white;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bitter', serif;
+    margin: 50px 0 50px 0;
+}
+
+#title h2 {
+    font-family: 'Mukta', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 62.5vw;
+}
+
+.title-break {
+    width: 50%;
+    margin-top: 50px;
+}
+
+
+main {
+    background-color: white;
+    margin: 0 275px 0 275px;
+    font-family: 'Mukta', serif;
+}
+
+header {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    margin: 50px 0px 50px 0px;
+}
+
+.header-span {
+    color: #e95400;
+}
+
+header+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+h2+h3 {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Mukta', serif;
+    line-height: 1.6;
+}
+
+code {
+    color: #e95400;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.25px;
+    margin: 25px 0 25px 0;
+}
+
+blockquote {
+    border-left: 2px solid #e95400;
+    margin-left: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+blockquote footer {
+    padding-left: 20px;
+}
+
+cite {
+    font-weight: bolder;
+}
+
+.section-break {
+    margin: 40px 0 40px 0;
+}
+
+
+
+h3 {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main+footer {
+    background-color: #863ae8;
+    text-align: center;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mukta', serif;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
